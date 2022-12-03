@@ -5,7 +5,7 @@ public class Main {
         float b = 1.70f; //рост указать в метрах.
 
         BmiService service = new BmiService();
-        float myCalculate = service.calculate(a , b);
+        float myCalculate = service.calculate(a, b);
 
 
         System.out.println("индекс массы тела равен: " + myCalculate + " кг/м²");
