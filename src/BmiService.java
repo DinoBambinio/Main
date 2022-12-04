@@ -1,7 +1,7 @@
 public class BmiService {
-    public float calculate(float a, float b) {
+    public float calculate(float weight, float height) {
 
-        float result = (a / (b * b));
+        float result = (weight / (height * height));
         return result;
     }
 }
